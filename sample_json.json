@@ -1,0 +1,13 @@
+{
+    "devices": [
+        {
+            "name":"water_pump",
+            "state": 1
+
+        },
+        {
+            "name": "lights",
+            "state": 0
+        }
+    ]
+}
