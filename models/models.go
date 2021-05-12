@@ -34,3 +34,8 @@ func (d *Devices) UpdateState(name string, desiredState int) {
 	index := d.GetIndex(name)
 	d.Devices[index].State = desiredState
 }
+
+func (d *Devices) GetDevice(targetName string) Device {
+	index := d.GetIndex(targetName)
+	return d.Devices[index]
+}
